@@ -1,0 +1,57 @@
+name: SimpleArmor
+version: 1.4.1
+description: Gives you armor by command.
+author: SirAlex
+website:
+main: me.SirAlex.SimpleArmor.SimpleArmor
+
+commands:
+  darmor:
+    description: Gives you diamond armor.
+    
+  garmor:
+    description: Gives you gold armor.
+    
+  iarmor:
+    description: Gives you iron armor.
+       
+  carmor:
+    description: Gives you chain armor.
+  
+  larmor:
+    description: Gives you leather armor.
+    
+  repair:
+    description: Repairs the item in your hand.
+  
+  arepair:
+    description: Repairs your armor.
+    
+permissions:
+  simplearmor.diamond:
+    description: Get diamond armor.
+    default: op
+    
+  simplearmor.gold:
+    description: Get gold armor.
+    default: op
+    
+  simplearmor.iron:
+    description: Get iron armor.
+    default: op
+
+  simplearmor.chain:
+    description: Get chain armor.
+    default: op
+    
+  simplearmor.leather:
+    description: Get diamond armor.
+    default: op
+    
+  simplearmor.repair:
+    description: Repair tool in your hand.
+    default: op
+    
+  simplearmor.arepair:
+    description: Repair your armor.
+    default: op
